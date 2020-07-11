@@ -1,0 +1,19 @@
+{
+  "name": "node-mailer",
+  "version": "1.0.0",
+  "description": "send email nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "MisterCG",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.0.22",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.4"
+  }
+}
